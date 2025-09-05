@@ -7,22 +7,23 @@
     <!-- Marquee Text -->
     <div class="mycustom-marque">
         <div class="scrolling-wrap style-2">
-            <div class="comm">
-                <div></div>
-                <div class="cmn-textslide">Have an Idea in Mind? Let’s Work</div>
-                <div class="cmn-textslide">TOGETHER</div>
-            </div>
-            <div class="comm">
-                <div></div>
-                <div class="cmn-textslide">Have an Idea in Mind? Let’s Work</div>
-                <div class="cmn-textslide">TOGETHER</div>
-            </div>
-            <div class="comm">
-                <div></div>
-                <div class="cmn-textslide">Have an Idea in Mind? Let’s Work</div>
-                <div class="cmn-textslide">TOGETHER</div>
-            </div>
-        </div>
+    <div class="comm">
+        <div></div>
+        <div class="cmn-textslide">I Believe in</div>
+        <div class="cmn-textslide">Working Together</div>
+    </div>
+    <div class="comm">
+        <div></div>
+        <div class="cmn-textslide">Let’s Partner</div>
+        <div class="cmn-textslide">And Create Impact</div>
+    </div>
+    <div class="comm">
+        <div></div>
+        <div class="cmn-textslide">I Grow When</div>
+        <div class="cmn-textslide">We Grow Together</div>
+    </div>
+</div>
+
     </div>
 
     <div class="container">
