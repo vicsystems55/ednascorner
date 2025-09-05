@@ -31,7 +31,7 @@
                         </span>
                         <h1>
                             I'm <span class="style-2">Your Favorite Vendor</span><br>
-                            <strong class="type-text">Coach • Consultant • Designer • Entrepreneur</strong>
+                            <strong class="type-text"></strong>
                         </h1>
                         <div class="hero-bottom">
                             <p>Inspiring and empowering individuals & businesses through
