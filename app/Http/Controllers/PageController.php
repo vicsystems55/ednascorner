@@ -60,4 +60,26 @@ class PageController extends Controller
             'description' => $description,
         ]);
     }
+
+    public function terms()
+    {
+        $title = 'Terms & Conditions | Your Favorite Vendor';
+        $description = 'Read the terms and conditions for using YFV services and website.';
+
+        return view('pages.terms', [
+            'title' => $title,
+            'description' => $description,
+        ]);
+    }
+
+    public function privacy()
+    {
+        $title = 'Privacy Policy | Your Favorite Vendor';
+        $description = 'Understand how YFV collects, uses, and protects your data.';
+
+        return view('pages.privacy', [
+            'title' => $title,
+            'description' => $description,
+        ]);
+    }
 }

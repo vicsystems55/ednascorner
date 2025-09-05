@@ -16,7 +16,7 @@
     <title>{{ $title ?? 'Your Favorite Vendor' }}</title>
 
     <!-- << Favicon >> -->
-    <link rel="shortcut icon" href="{{ asset('assets/img/favicon.svg') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/img/favicon.png') }}">
 
     <!-- << Bootstrap min.css >> -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">

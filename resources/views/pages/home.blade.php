@@ -111,60 +111,67 @@
 </section>
 
 
-    <!-- About Section Start -->
-    <section class="about-section fix section-padding">
-        <div class="container">
-            <div class="section-title-area">
-                <div class="section-title">
-                    <span class="wow fadeInUp"><img src="assets/img/shape/star-2.png" alt="img">We Are We</span>
-                    <h2 class="wow fadeInUp" data-wow-delay=".2s">
-                        Solving Problems With <br> lntuitive
-                        <span>Design</span>
-                    </h2>
-                </div>
-                <div class="content">
-                    <p>
-                        We’re a team of strategic working globally with largest brands, We believe that progress only
-                        you to play things safe.
-                    </p>
-                    <a href="about.html" class="theme-btn">More About ME
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                </div>
+<!-- About Section Start -->
+<section class="about-section fix section-padding">
+    <div class="container">
+        <div class="section-title-area">
+            <div class="section-title">
+                <span class="wow fadeInUp">
+                    <img src="{{ asset('assets/img/shape/star-2.png') }}" alt="icon">
+                    About Me
+                </span>
+                <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                    Empowering Growth With <br> Passion &
+                    <span>Innovation</span>
+                </h2>
             </div>
-            <div class="about-wrapper-1">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="about-box-item">
-                            <h2><span class="count">10</span>+</h2>
-                            <h3>
-                                Years of My <br>
-                                <span>Experience...</span>
-                            </h3>
-                        </div>
+            <div class="content">
+                <p>
+                    I am Princess Victor — a multi-passionate entrepreneur, coach, and creator.
+                    From guiding individuals through mentorship, delivering tech & design solutions,
+                    to fashion, lifestyle, and travel experiences, I bring a holistic approach to growth
+                    and transformation. My mission is to inspire, empower, and solve problems through
+                    creativity and strategy.
+                </p>
+                <a href="{{ url('/about-me') }}" class="theme-btn">More About Me
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="about-wrapper-1">
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="about-box-item">
+                        <h2><span class="count">10</span>+</h2>
+                        <h3>
+                            Years of <br>
+                            <span>Experience</span>
+                        </h3>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="about-box-item style-2">
-                            <h2><span class="count">1400</span>k</h2>
-                            <h3>
-                                Clients Satisfied <br>
-                                <span>Worldwide...</span>
-                            </h3>
-                        </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="about-box-item style-2">
+                        <h2><span class="count">500</span>+</h2>
+                        <h3>
+                            Clients Impacted <br>
+                            <span>Worldwide</span>
+                        </h3>
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6">
-                        <div class="about-box-item">
-                            <h2><span class="count">500</span>k</h2>
-                            <h3>
-                                Successfully <br>
-                                <span> Project Done...</span>
-                            </h3>
-                        </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                    <div class="about-box-item">
+                        <h2><span class="count">200</span>+</h2>
+                        <h3>
+                            Projects <br>
+                            <span>Successfully Delivered</span>
+                        </h3>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- Service Section Start -->
     <section class="service-section service-1 section-padding section-bg fix">
@@ -247,7 +254,7 @@
 
 
     <!-- Project Section Start -->
-    <section class="project-section section-padding fix">
+    <section class="project-section section-padding fix d-none">
         <div class="container">
             <div class="section-title-area">
                 <div class="section-title">
@@ -330,76 +337,82 @@
         </div>
     </section>
 
-    <!-- Experience Section Start -->
-    <section class="experience-section section-padding section-bg fix">
-        <div class="container">
-            <div class="section-title  text-center">
-                <span class="wow fadeInUp"><img src="assets/img/shape/star-2.png" alt="img">My Experience<img
-                        src="assets/img/shape/star-2.png" alt="img"></span>
-                <h2 class="wow fadeInUp" data-wow-delay=".2s">My Work Experience</h2>
+<!-- Experience Section Start -->
+<section class="experience-section section-padding section-bg fix">
+    <div class="container">
+        <div class="section-title text-center">
+            <span class="wow fadeInUp">
+                <img src="{{ asset('assets/img/shape/star-2.png') }}" alt="img">
+                My Experience
+                <img src="{{ asset('assets/img/shape/star-2.png') }}" alt="img">
+            </span>
+            <h2 class="wow fadeInUp" data-wow-delay=".2s">My Professional Journey</h2>
+        </div>
+
+        <div class="experience-wrapper">
+            <!-- Travel Industry -->
+            <div class="experience-items wow fadeInUp" data-wow-delay=".2s">
+                <span>2017 – Present</span>
+                <h4>Travel & Tourism Professional</h4>
+                <h6>7+ Years in the Travel Agency Industry</h6>
             </div>
-            <div class="experience-wrapper">
-                <div class="experience-items wow fadeInUp" data-wow-delay=".2s">
-                    <span>2024</span>
-                    <h4>Senior Designer</h4>
-                    <h6>Behance</h6>
-                </div>
-                <div class="experience-items wow fadeInUp" data-wow-delay=".4s">
-                    <span>2024</span>
-                    <h4>UX Design case study</h4>
-                    <h6>Behance</h6>
-                </div>
-                <div class="experience-items wow fadeInUp" data-wow-delay=".6s">
-                    <span>2024</span>
-                    <h4>Product Designer v/s Product Manage</h4>
-                    <h6>Product Hunt</h6>
-                </div>
-                <div class="experience-items wow fadeInUp" data-wow-delay=".8s">
-                    <span>2024</span>
-                    <h4>Xiomi in Product Design (UI/UX)</h4>
-                    <h6>Pinterest</h6>
-                </div>
+
+            <!-- Certifications -->
+            <div class="experience-items wow fadeInUp" data-wow-delay=".4s">
+                <span>Ongoing</span>
+                <h4>Digital Marketing, Sales & Business Development</h4>
+                <h6>Certified – Vicsystems Technologies Training Institute</h6>
             </div>
-            <div class="client-wrapper">
-                <div class="client-items">
-                    <div class="client-item">
-                        <div class="icon">
-                            <img src="assets/img/client/1.svg" alt="img">
-                        </div>
-                        <h4 class="number"><span class="count">98</span>% <span class="text">Figma</span></h4>
+
+            <!-- Healthcare -->
+            <div class="experience-items wow fadeInUp" data-wow-delay=".6s">
+                <span>Previous Role</span>
+                <h4>Laboratory Consultant</h4>
+                <h6>Rhema Teaching Hospital</h6>
+            </div>
+        </div>
+
+        <!-- Skills / Strengths -->
+        <div class="client-wrapper d-none">
+            <div class="client-items">
+                <div class="client-item">
+                    <div class="icon">
+                        <img src="{{ asset('assets/img/client/1.svg') }}" alt="icon">
                     </div>
-                    <div class="client-item">
-                        <div class="icon">
-                            <img src="assets/img/client/2.svg" alt="img">
-                        </div>
-                        <h4 class="number"><span class="count">90</span>% <span class="text">Photoshop</span></h4>
+                    <h4 class="number"><span class="count">95</span>% <span class="text">Travel Advisory & Management</span></h4>
+                </div>
+                <div class="client-item">
+                    <div class="icon">
+                        <img src="{{ asset('assets/img/client/2.svg') }}" alt="icon">
                     </div>
-                    <div class="client-item">
-                        <div class="icon">
-                            <img src="assets/img/client/3.svg" alt="img">
-                        </div>
-                        <h4 class="number"><span class="count">79</span>% <span class="text">Illustrator</span>
-                        </h4>
+                    <h4 class="number"><span class="count">90</span>% <span class="text">Business Development</span></h4>
+                </div>
+                <div class="client-item">
+                    <div class="icon">
+                        <img src="{{ asset('assets/img/client/3.svg') }}" alt="icon">
                     </div>
-                    <div class="client-item">
-                        <div class="icon">
-                            <img src="assets/img/client/4.svg" alt="img">
-                        </div>
-                        <h4 class="number"><span class="count">88</span>% <span class="text">Sketch</span></h4>
+                    <h4 class="number"><span class="count">88</span>% <span class="text">Digital Marketing</span></h4>
+                </div>
+                <div class="client-item">
+                    <div class="icon">
+                        <img src="{{ asset('assets/img/client/4.svg') }}" alt="icon">
                     </div>
-                    <div class="client-item">
-                        <div class="icon">
-                            <img src="assets/img/client/5.svg" alt="img">
-                        </div>
-                        <h4 class="number"><span class="count">93</span>% <span class="text">Adobe_Xd</span></h4>
+                    <h4 class="number"><span class="count">85</span>% <span class="text">Healthcare Consulting</span></h4>
+                </div>
+                <div class="client-item">
+                    <div class="icon">
+                        <img src="{{ asset('assets/img/client/5.svg') }}" alt="icon">
                     </div>
+                    <h4 class="number"><span class="count">92</span>% <span class="text">Sales & Client Relations</span></h4>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- Awards Section Start -->
-    <section class="awards-section section-padding fix">
+    <section class="awards-section section-padding fix d-none">
         <div class="top-shape">
             <img src="assets/img/shape/new-shape.png" alt="img">
         </div>
@@ -486,7 +499,7 @@
     </section>
 
     <!-- Pricing Section Start -->
-    <section class="pricing-section section-padding section-bg fix">
+    <section class="pricing-section section-padding section-bg fix d-none">
         <div class="container">
             <div class="section-title text-center">
                 <span><img src="assets/img/shape/star-2.png" alt="img">Best Pricing</span>
@@ -563,153 +576,123 @@
         </div>
     </section>
 
-    <!-- Testimonials Section Start -->
-    <section class="testimonials-section testimonials-1 section-padding section-bg-2 fix">
-        <div class="random-shape float-bob-x">
-            <img src="assets/img/shape/random-shape.png" alt="img">
-        </div>
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-6">
-                    <div class="section-title">
-                        <span class="wow fadeInUp"><img src="assets/img/shape/star-2.png"
-                                alt="img">Testimonials</span>
-                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Our clients awesome <span>Testimonials</span>
-                        </h2>
-                    </div>
-                    <div class="reviews wow fadeInUp" data-wow-delay=".4s">
-                        <h2 class="count">4.8</h2>
-                        <div class="item">
-                            <span>1200+ Clients Rating.</span>
-                            <div class="star">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
+<!-- Testimonials Section Start -->
+<section class="testimonials-section testimonials-1 section-padding section-bg-2 fix">
+    <div class="random-shape float-bob-x">
+        <img src="{{ asset('assets/img/shape/random-shape.png') }}" alt="img">
+    </div>
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="section-title">
+                    <span class="wow fadeInUp">
+                        <img src="{{ asset('assets/img/shape/star-2.png') }}" alt="img">Testimonials
+                    </span>
+                    <h2 class="wow fadeInUp" data-wow-delay=".2s">
+                        Our Clients’ Awesome <span>Testimonials</span>
+                    </h2>
                 </div>
-                <div class="col-lg-6">
-                    <div class="testimonials-wrapper">
-                        <div class="swiper testimonial-slider">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="testimonial-box-items">
-                                        <div class="client-info">
-                                            <img src="assets/img/testimonials/1.png" alt="img">
-                                            <div class="client-content">
-                                                <h5>Daniel Smith</h5>
-                                                <p>Senior engineer</p>
-                                            </div>
-                                        </div>
-                                        <div class="testi-content">
-                                            <div class="icon">
-                                                <img src="assets/img/icon/42.svg" alt="img">
-                                            </div>
-                                            <p>
-                                                This digital agency completely transformed our online presence. Their
-                                                expertise, creativity, and attention to detail exceeded all our
-                                                expectations. We highly recommend their outstanding services!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-box-items">
-                                        <div class="client-info">
-                                            <img src="assets/img/testimonials/1.png" alt="img">
-                                            <div class="client-content">
-                                                <h5>Daniel Smith</h5>
-                                                <p>Senior engineer</p>
-                                            </div>
-                                        </div>
-                                        <div class="testi-content">
-                                            <div class="icon">
-                                                <img src="assets/img/icon/42.svg" alt="img">
-                                            </div>
-                                            <p>
-                                                This digital agency completely transformed our online presence. Their
-                                                expertise, creativity, and attention to detail exceeded all our
-                                                expectations. We highly recommend their outstanding services!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-box-items">
-                                        <div class="client-info">
-                                            <img src="assets/img/testimonials/1.png" alt="img">
-                                            <div class="client-content">
-                                                <h5>Daniel Smith</h5>
-                                                <p>Senior engineer</p>
-                                            </div>
-                                        </div>
-                                        <div class="testi-content">
-                                            <div class="icon">
-                                                <img src="assets/img/icon/42.svg" alt="img">
-                                            </div>
-                                            <p>
-                                                This digital agency completely transformed our online presence. Their
-                                                expertise, creativity, and attention to detail exceeded all our
-                                                expectations. We highly recommend their outstanding services!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-box-items">
-                                        <div class="client-info">
-                                            <img src="assets/img/testimonials/1.png" alt="img">
-                                            <div class="client-content">
-                                                <h5>Daniel Smith</h5>
-                                                <p>Senior engineer</p>
-                                            </div>
-                                        </div>
-                                        <div class="testi-content">
-                                            <div class="icon">
-                                                <img src="assets/img/icon/42.svg" alt="img">
-                                            </div>
-                                            <p>
-                                                This digital agency completely transformed our online presence. Their
-                                                expertise, creativity, and attention to detail exceeded all our
-                                                expectations. We highly recommend their outstanding services!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-box-items">
-                                        <div class="client-info">
-                                            <img src="assets/img/testimonials/1.png" alt="img">
-                                            <div class="client-content">
-                                                <h5>Daniel Smith</h5>
-                                                <p>Senior engineer</p>
-                                            </div>
-                                        </div>
-                                        <div class="testi-content">
-                                            <div class="icon">
-                                                <img src="assets/img/icon/42.svg" alt="img">
-                                            </div>
-                                            <p>
-                                                This digital agency completely transformed our online presence. Their
-                                                expertise, creativity, and attention to detail exceeded all our
-                                                expectations. We highly recommend their outstanding services!
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-dot text-center">
-                            <div class="dot"></div>
+                <div class="reviews wow fadeInUp" data-wow-delay=".4s">
+                    <h2 class="count">4.8</h2>
+                    <div class="item">
+                        <span>1200+ Clients Rating.</span>
+                        <div class="star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Testimonials Slider -->
+            <div class="col-lg-6">
+                <div class="testimonials-wrapper">
+                    <div class="swiper testimonial-slider">
+                        <div class="swiper-wrapper">
+
+                            <!-- Nigerian Testimonial -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-box-items">
+                                    <div class="client-info">
+                                        <img src="{{ asset('assets/img/testimonials/nigeria.png') }}" alt="img">
+                                        <div class="client-content">
+                                            <h5>Chinonso Okafor</h5>
+                                            <p>Entrepreneur – Lagos, Nigeria</p>
+                                        </div>
+                                    </div>
+                                    <div class="testi-content">
+                                        <div class="icon">
+                                            <img src="{{ asset('assets/img/icon/42.svg') }}" alt="icon">
+                                        </div>
+                                        <p>
+                                            Working with them has been a turning point for my business.
+                                            Their travel and consultancy services opened new opportunities,
+                                            and my company has seen remarkable growth since then.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Egyptian Testimonial -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-box-items">
+                                    <div class="client-info">
+                                        <img src="{{ asset('assets/img/testimonials/egypt.png') }}" alt="img">
+                                        <div class="client-content">
+                                            <h5>Ahmed El-Sayed</h5>
+                                            <p>Cairo, Egypt</p>
+                                        </div>
+                                    </div>
+                                    <div class="testi-content">
+                                        <div class="icon">
+                                            <img src="{{ asset('assets/img/icon/42.svg') }}" alt="icon">
+                                        </div>
+                                        <p>
+                                            The entire process of arranging my travel and visa
+                                            was incredibly smooth. I felt supported every step
+                                            of the way, and everything was handled professionally.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- UK Testimonial -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-box-items">
+                                    <div class="client-info">
+                                        <img src="{{ asset('assets/img/testimonials/uk.png') }}" alt="img">
+                                        <div class="client-content">
+                                            <h5>Emily Johnson</h5>
+                                            <p>London, United Kingdom</p>
+                                        </div>
+                                    </div>
+                                    <div class="testi-content">
+                                        <div class="icon">
+                                            <img src="{{ asset('assets/img/icon/42.svg') }}" alt="icon">
+                                        </div>
+                                        <p>
+                                            I was impressed by the efficiency of their services.
+                                            From travel bookings to visa support, the experience
+                                            was seamless and stress-free. Truly exceptional service!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-dot text-center">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <!-- News Section Start -->
     <section class="news-section news-1 section-padding section-bg fix d-none">
